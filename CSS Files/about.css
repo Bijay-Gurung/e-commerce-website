@@ -80,7 +80,7 @@ footer ul li .Developer{
     position: relative;
     left: 87%;
     bottom: 80px;
-    background-image: url(/Images/Model/Karma.jpg);
+    background-image: url(../Images/Karma.jpg);
     background-size: cover;
 }
 footer p{
