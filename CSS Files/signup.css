@@ -54,7 +54,7 @@ i{
     padding: 30px;
     border-radius: 35px;
     color: #000;
-    background-image: url('../Images/Aesthetic\ Boy\ model.jpg');
+    background-image: url(../Images/Aesthetic\ Boy\ model.jpg);
     background-size: cover;
     box-shadow: 8px 8px 15px 8px #878585;
 }
