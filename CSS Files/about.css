@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+header h1{
+    font-family: 'Pacifico', cursive;
+    color: #000;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: large;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul li button{
+    border-radius: 30px;
+    height: 24px;
+    width: 60px;
+}
+i{
+    letter-spacing: 0.5em;
+}
+
+article{
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+article .about{
+    
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 9%;
+    left: 38%;
+    border-radius: 30px;
+    box-shadow: 8px 8px 15px 8px #878585;
+}
+article .about h1{
+    padding-top: 70px;
+    padding-bottom: 30px;
+} 
+
+footer{
+    background-color: #000;
+}
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+footer ul{
+    list-style-type: none;
+    position: relative;
+    left: 50px;
+    top: 22px;
+}
+footer ul li .Developer{
+    border-radius: 90px;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 87%;
+    bottom: 80px;
+    background-image: url(/Images/Model/Karma.jpg);
+    background-size: cover;
+}
+footer p{
+    color: #fff;
+    text-align: right;
+    position: relative;
+    right: 65px;
+    bottom: 40px;
+}
+button{
+    border-radius: 20px;
+    height: 30px;
+    width:100px;
+    border-style: none;
+    font-weight: 600;
+}
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.dark-mode{
+    background-color: #000;
+    color: #fff;
+}
+.dark-mode a{
+    color: #fff;
+}

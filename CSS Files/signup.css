@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+header h1{
+    font-family: 'Pacifico', cursive;
+    color: #000;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: large;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul li button{
+    border-radius: 30px;
+    height: 24px;
+    width: 60px;
+}
+i{
+    letter-spacing: 0.5em;
+}
+
+.container{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    max-width: 430px;
+    height: 400px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 35px;
+    color: #000;
+    background-image: url(/Images/Model/Aesthetic\ Boy\ model.jpg);
+    background-size: cover;
+    box-shadow: 8px 8px 15px 8px #878585;
+}
+form{
+    margin-top: 30px;
+}
+form .field{
+height: 45px;
+width: 100%;
+margin-top: 20px;
+}
+
+.field input,
+.field button{
+    height: 90%;
+    width: 90%;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.field input{
+    padding: 0 15px;
+    border: 1px solid #CACACA;
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-link span,
+.form-link a{
+    font-size: 18px;
+    font-weight: 500;
+    color:#000;
+}
+.form a{
+    text-decoration: none;
+    color:#000;
+}
+.form a:hover{
+    text-decoration: underline;
+}
+.form h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+footer{
+    background-color: #000;
+}
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+footer ul{
+    list-style-type: none;
+    position: relative;
+    left: 50px;
+    top: 22px;
+}
+footer ul li .Developer{
+    border-radius: 90px;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    left: 87%;
+    bottom: 80px;
+    background-image: url(/Images/Model/Karma.jpg);
+    background-size: cover;
+}
+footer p{
+    color: #fff;
+    text-align: right;
+    position: relative;
+    right: 65px;
+    bottom: 40px;
+}
+button{
+    border-radius: 20px;
+    height: 30px;
+    width:100px;
+    border-style: none;
+    font-weight: 600;
+}
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.dark-mode{
+    background-color: #000;
+    color: #fff;
+}
+.dark-mode a{
+    color: #fff;
+}
+.dark-mode h1{
+    color: #fff;
+}
+.dark-mode p{
+    color: #000;
+}
+.dark-mode footer p{
+    color:#fff;
+}
+.dark-mode .form h1{
+    color: #000;
+}
+.dark-mode .form a{
+    color: #000;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin panel</title>
+    <link href="./CSS Files/admin.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4f9d824da5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Karma</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="Signup.html"><i class="fa-solid fa-right-to-bracket"></i>Signup</a></li>
+                <li><button onclick="myFunction()"><i class="fa-solid fa-moon"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>Admin Panel</h1>
+
+    <form id="product-form">
+        <label for="product-name">Product Name:</label>
+        <input type="text" id="product-name" required>
+
+        <label for="product-image">Product Image URL:</label>
+        <input type="text" id="product-image" required>
+
+        <label for="product-price">Product Price:</label>
+        <input type="number" id="product-price" required>
+
+        <button type="submit">Add Product</button>
+    </form>
+
+    <table id="product-table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Product Image</th>
+                <th>Product Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="admin form.html">Sell Product on Karma</a></li>
+            <li><div class="Developer"></div></li>
+        </ul>
+
+        <p>Bijay Gurung</p>
+    </footer>
+    <script src="./Java Script Files/admin.js"></script>
+</body>
+</html>

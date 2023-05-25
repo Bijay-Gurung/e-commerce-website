@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="./CSS Files/login.css">
+    <script src="https://kit.fontawesome.com/4f9d824da5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Karma</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="Signup.html"><i class="fa-solid fa-right-to-bracket"></i>Signup</a></li>
+                <li><a href="about.html"><i class="fa-solid fa-address-card"></i>About</a></li>
+                <li><a href="admin.html">Admin</a></li>
+                <li><button onclick="myFunction()"><i class="fa-solid fa-moon"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container forms">
+        <div class="form login">
+            <div class="form-content">
+                <h1>Login</h1>
+                
+                <form action="#">
+                    <div class="field input-field">
+                        <label for="input"><i class="fa-solid fa-envelope"></i></label>
+                        <input type="email" placeholder="Email" class="input" required>
+                    </div>
+
+                    <div class="field input-field">
+                        <label for="password"><i class="fa-solid fa-lock"></i></label>
+                        <input type="password" placeholder="Password" class="password" minlength="8" maxlength="15" required>
+                    </div>
+
+                    <div class="form-link">
+                        <a href="#" class="forget-password">Forget password?</a>
+                    </div>
+
+                    <div class="field Button-field">
+                        <button onclick="login()">Login</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="admin form.html">Sell Product on Karma</a></li>
+            <li><div class="Developer"></div></li>
+        </ul>
+
+        <p>Bijay Gurung</p>
+    </footer>
+    <script src="./Java Script Files/Login.js"></script>
+</body>
+</html>

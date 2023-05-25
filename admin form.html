@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin form</title>
+    <link href="./CSS Files/admin form.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4f9d824da5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Karma</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="Signup.html"><i class="fa-solid fa-right-to-bracket"></i>Signup</a></li>
+                <li><a href="admin.html">Admin</a></li>
+                <li><button onclick="myFunction()"><i class="fa-solid fa-moon"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="Admin-form">
+            <h1>Admin Form</h1>
+
+            <form>
+                <div class="Admin Name">
+                    <label for="admin-name"><i class="fa-solid fa-user"></i></label>
+                    <input type="text" class="admin-name" placeholder="Admin name" required>
+                </div>
+                <br>
+                <div class="Admin Age">
+                    <label for="age"><i class="fa-solid fa-person-cane"></i></label>
+                    <input type="number" class="age" placeholder="Age" step="1" required>
+                </div>
+                <br>
+                <div class="Admin Gender">
+                    <label for="gender"><i class="fa-solid fa-venus-mars"></i></label>
+                    <input type="radio" class="gender">
+                    <label for="gender">Male</label>
+                    <input type="radio" class="gender">
+                    <label for="gender">Female</label>
+                </div>
+                <br>
+                <div class="Admin Address">
+                    <label for="address"><i class="fa-solid fa-address-book"></i></label>
+                    <input type="text" class="address" placeholder="Address" required>
+                </div>
+                <br>
+                <div class="Admin Mail">
+                    <label for="admin-mail"><i class="fa-solid fa-envelope"></i></label>
+                    <input type="email" class="admin-mail" placeholder="Email" required>
+                </div>
+                <br>
+                <div class="Admin Password">
+                    <label for="admin-password"><i class="fa-solid fa-lock"></i></label>
+                    <input type="password" class="admin-password" placeholder="Password" minlength="8" maxlength="15" required>
+                </div>
+                <br>
+                <div class="Admin Business">
+                    <label for="Business-name"><i class="fa-solid fa-briefcase"></i></label>
+                    <input type="text" class="Business-name" placeholder="Business Name" maxlength="15" required>
+                </div>
+                <br>
+                <div class="Admin BusinessDescription">
+                    <label for="description"><i class="fa-solid fa-pen"></i></label>
+                    <input type="blog" class="description" placeholder="Description" required>
+                </div>                
+                <br>
+                <div class="Submit Button">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="admin form.html">Sell Product on Karma</a></li>
+            <li><div class="Developer"></div></li>
+        </ul>
+
+        <p>Bijay Gurung</p>
+    </footer>
+    <script src="./Java Script Files/admin form.js"></script>
+</body>
+</html>
